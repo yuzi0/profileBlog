@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <title></title>
+    <style type="text/css">
+      img {
+        opacity: 0.5;
+        filter: alpha(opacity=50); /* For IE8 and earlier */
+      }
+
+      img:hover {
+        opacity: 1.0;
+        filter: alpha(opacity=100); /* For IE8 and earlier */
+      }
+    </style>
+    </head>
+  <body>
+    <h5>project 사진</h5>
+    <img src="../images/project1.jpg" alt="Forest" width="170" height="100">
+    <img src="../images/project2.jpg" alt="Mountains" width="170" height="100">
+    <img src="../images/project3.jpg" alt="Italy" width="170" height="100">
+    <h5>project 내용</h5>
+    <p>
+      [신기술인 LoRa 통신을 이용한 스마트 LED 가로등 모니터링 시스템]<br />
+작년 봄, 친구와 함께 교내 캡스톤 디자인으로 LoRa와 라즈베리파이를 이용한 가로등 시스템을 계획했습니다. 원래 목표는 라즈베리파이에서 가로등의 상태(전류, 전압, 조도 등)를 LoRaWAN 모듈을 통해 Router로 메시지를 보내는 것까지였습니다. LoRa는 신기술인 만큼 기존의 인프라가 구축되어 있지 않은 상황이라 나와 내 친구는 이 프로젝트를 하는 중에 수 많은 문제에 부딪혔습니다. LoRaWAN를 통해 보낼 수 있는 한 번에 데이터의 양이 너무 한정적 이였으며 통신 가능 범위 또한 이론과 달랐습니다. 그리고 LoRaWAN을 10분 이상 구동하면 자동적으로 재부팅하는 현상이 나타났고 라즈베리파이에 ADC가 내장되어 있지 않기 때문에 센서와 연결했을 때 나타나는 문제 등 수많은 문제가 골치를 썩였습니다. 그때마다 문제를 해결하기 위해 밤을 새기도 하고 함께 하는 친구와 신세한탄을 하며 술을 마시며 스트레스를 풀기도 했습니다. 또 몇 날 며칠을 보내며 붙잡고 있던 문제가 예상치 못한 점에서 해결됐을 때 허무함을 느끼기도 했습니다.
+서류상의 개발기간은 4월부터 9월이지만 실질적인 기간은 8월부터 9월, 한 달입니다. 개발 전까지 LoRa와 라즈베리파이에 대해 이론적인 것을 공부했다. LoRa는 LPWA의 일종이라는 것과 Star, Mesh topology에 대해서, 라즈베리파이 기본 설정 등에 공부하는데 시간을 많이 투자했습니다. 실제로 이 프로젝트를 개발하기 전에 준비하는 시간을 오래 들였기에 프로젝트를 성공적으로 구현할 수 있었다고 생각합니다. 비록 실제로 개발하면서 생각하지 못한 문제는 꾸준히 생겼지만 그때마다 친구와 선배에게 조언을 받으며 해결했습니다.
+그때 친구가 맡은 개발 파트는 라즈베리파이에 각종 센서를 연결해 센서 데이터를 측정, 내가 맡은 개발 파트는 라즈베리파이에 연결한 LoRaWAN을 통해 Router와 통신입니다. 실제 달성 범위는 Router로 메시지를 받아와 그 데이터를 사용자가 사용하기 편하게 하기 위한 GUI 개발과 LED 점등 제어까지 구현했습니다.
+
+    </p>
+  </body>
+</html>
