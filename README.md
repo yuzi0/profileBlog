@@ -7,23 +7,17 @@
 
 
 ## 이미지
-첫 화면
+
 ![initial](https://user-images.githubusercontent.com/55429634/80310240-9cd2b700-8814-11ea-9410-d11e8ec89e1f.png)
 
-메뉴 화면
 ![menu](https://user-images.githubusercontent.com/55429634/80310269-c1c72a00-8814-11ea-9fac-eaece4bc2701.png)
 
-이력 화면
 ![history](https://user-images.githubusercontent.com/55429634/80310293-d9061780-8814-11ea-87a2-30923caa2808.PNG)
 
-SNS 화면
 ![sns](https://user-images.githubusercontent.com/55429634/80310297-db687180-8814-11ea-888a-64b42fc3b0a1.PNG)
 
-자기소개 화면
 ![introduce](https://user-images.githubusercontent.com/55429634/80310298-dd323500-8814-11ea-9810-f03fd247d878.PNG)
 
-수상 내역 및 자격증
 ![ex](https://user-images.githubusercontent.com/55429634/80310304-defbf880-8814-11ea-80a5-a060aef8bf6e.PNG)
 
-프로젝트 화면
 ![project](https://user-images.githubusercontent.com/55429634/80310307-e0c5bc00-8814-11ea-8ec0-311a2f555534.PNG)
